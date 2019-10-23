@@ -1,7 +1,9 @@
 package com.example.service;
 
-import com.example.entity.User;
+import com.example.User;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface UserService {
-    User select(int id);
+    public void adduser(User user);
 }
