@@ -18,6 +18,7 @@ public class Usercontrol {
     public String showpage(@PathVariable String page){
         return page;
     }
+
     @RequestMapping("/adduser" )
     public String adduser(User user){
         this.userService.adduser(user);
