@@ -1,9 +1,7 @@
 package com.example.mapper;
 
-import com.example.User;
-import org.mybatis.spring.annotation.MapperScan;
+import com.example.entity.User;
 
-@MapperScan
 public interface UsersMapper {
     void insertUser(User user);
 }

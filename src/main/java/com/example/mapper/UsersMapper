@@ -4,6 +4,6 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mapper.UsersMapper">
     <insert id="insertUser" parameterType="user">
-insert into users(userName,passWord,realName) values(#{userName},#{passWord},#{realName})
+      insert into users(userName,passWord,realName) values(#{userName},#{passWord},#{realName})
     </insert>
 </mapper>

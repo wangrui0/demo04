@@ -1,8 +1,6 @@
-package com.example;
+package com.example.entity;
 
-import org.apache.ibatis.type.Alias;
 
-@Alias("user")
 public class User{
     private  Integer id;
     private  Integer userName ;
